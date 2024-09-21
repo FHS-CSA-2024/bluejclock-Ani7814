@@ -23,6 +23,7 @@ public class ClockDisplaySeconds
         minutes = new NumberDisplay(60);
         seconds = new NumberDisplay(60);
         setTime(hour, minute, second);
+        updateDisplay();
     
     }
     
